@@ -3,6 +3,9 @@
 Description of a project of a device that converts 1~10 kV DC down to Low
 Voltage (LV) useable by electric train.
 
+I did not designed anything here, only reporting the ongoing [work of someone
+else][9] on [1BitSquared's chat server][10].
+
 
 Context
 --------------------------------------------------------------------------------
@@ -172,3 +175,5 @@ The source of one JFET needs to be connected to the drain of another JFET to cha
 [6]: https://www.ti.com/lit/an/slua159/slua159.pdf
 [7]: https://ieeexplore.ieee.org/document/152341
 [8]: https://web.archive.org/web/20220721173332/https://unitedsic.com/datasheets/DS_UF3N120140.pdf
+[9]: https://discord.com/channels/613131135903596547/1105894462409941002
+[10]: https://discord.gg/Zzv4CpW9T6
