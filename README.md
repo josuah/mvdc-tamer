@@ -174,6 +174,6 @@ The source of one JFET needs to be connected to the drain of another JFET to cha
 [5]: https://www.ti.com/lit/an/slyt807/slyt807.pdf
 [6]: https://www.ti.com/lit/an/slua159/slua159.pdf
 [7]: https://ieeexplore.ieee.org/document/152341
-[8]: https://web.archive.org/web/20220721173332/https://unitedsic.com/datasheets/DS_UF3N120140.pdf
+[8]: datasheets/DS_UF3N120140.pdf
 [9]: https://discord.com/channels/613131135903596547/1105894462409941002
 [10]: https://discord.gg/Zzv4CpW9T6
