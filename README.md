@@ -53,11 +53,11 @@ from TI.
 
 ### Working of the modules together
 
-![img](img_whole_device_with_module_shown_as_blocks.png)
+![img](images/whole_device_with_module_shown_as_blocks.png)
 
 Note: Each replicated module is represented as a block:
 
-![img](img_whole_device_view_of_a_block.png)
+![img](images/whole_device_view_of_a_block.png)
 
 Each module have control signals driving the switching of the JFET power
 transistors.
@@ -73,12 +73,12 @@ Using several modules has the following advantages:
 
 ### Working of an individual module
 
-![img](img_single_module.png)
+![img](images/single_module.png)
 
 Note: the inductors L1, L2, L3, L5, L9 are parasitics representing the wires
 for simulation purposes, not part of the design.
 
-![img](img_single_module_parasitic_inductance.png)
+![img](images/single_module_parasitic_inductance.png)
 
 Each of these modules would be converting the MVDC input down to LV.
 
@@ -86,7 +86,7 @@ Each follows the general principle from [TI's three-level buck-switching][5],
 for which it splits the flying capacitor in two, and splits the output inductor
 in two.
 
-![img](img_slyt807_driving_signals.png)
+![img](images/slyt807_driving_signals.png)
 
 The transistor doing the big main PWM-style switching would be SiC JFETs.
 
