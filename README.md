@@ -3,8 +3,8 @@
 Description of a project of a device that converts 1~10 kV DC down to Low
 Voltage (LV) useable by electric train.
 
-I did not designed anything here, only reporting the ongoing [work of someone
-else][9] on [1BitSquared's chat server][10].
+I did not design anything here, I am only attempting to explain the ongoing
+[work of someone else][9] discussed on the [1BitSquared's chat server][10].
 
 
 Context
