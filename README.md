@@ -126,7 +126,23 @@ Control signals
 
 ### Harmonics cancellation
 
-TODO: where do the harmonics appear precisely?
+The whole project is based off switching to reduce the VMDC voltage.
+Instead of hard-switching the current on and off in the style of a SMPS,
+it diverts the current from branch to another: as one transistor turns off,
+another one turns on.
+
+The curve of voltage over time for a JFET transistor turning off is not exactly
+the opposite of the curve of a JFET turning on. This means that the sum of the
+two is not constant. This results in interference on the output voltage and
+current draw.
+
+These needs to be cancelled: by that is meant a more accurate control of the
+JFET gate so that the switching on becomes exactly the opposite of the
+switching off.
+
+This current stirring from one JFET transistor to another is an existing
+strategy encountered in current-steering DAC, or [push-pull outputs][11],
+or [push-pull amplifier][12].
 
 
 Practical aspects
@@ -177,3 +193,5 @@ The source of one JFET needs to be connected to the drain of another JFET to cha
 [8]: datasheets/DS_UF3N120140.pdf
 [9]: https://discord.com/channels/613131135903596547/1105894462409941002
 [10]: https://discord.gg/Zzv4CpW9T6
+[11]: https://en.wikipedia.org/wiki/Push%E2%80%93pull_output#Analog_circuits
+[12]: https://en.wikipedia.org/wiki/Distortion#Cancellation_of_even-order_harmonic_distortion
